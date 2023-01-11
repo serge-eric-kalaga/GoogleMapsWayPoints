@@ -23,6 +23,6 @@ def find_optimal_route(origin, destinations, api_key):
         destinations.remove(closest_destination)
     return optimal_route
 
-result = find_optimal_route("Nonsin", ["Ouidi", "Larle", "Gounghin", "Ouaga 2000"], "AIzaSyAgsnYWU-sVcj1yW7cjfcCmW_1-Daedekk")
+result = find_optimal_route("Nonsin", ["Ouidi", "Larle", "Gounghin", "Ouaga 2000"], "API_KEY")
 
 print(result)
